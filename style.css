@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 em {
   color: #A5B4FC;
   font-style: normal;
@@ -39,6 +43,15 @@ li {
   background: linear-gradient(#8E86B5, #ACAEED);
   color: white;
   border-radius: 50px;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788BA);
+  text-decoration: none;
+}
+
+.link-icon:hover {
+  opacity: 0.5;
 }
 
 .square-content {
