@@ -1,0 +1,24 @@
+.square-content {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+.square-content h2 {
+  margin-top: 30px;
+}
+
+.square-content ul {
+  margin-top: 30px;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+
+.a-propos-main h1,
+.a-propos-main h2 {
+  text-align: center;
+}
