@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60px;
+  max-width: 1000px;
   align-items: flex-start;
   margin: auto;
 }
@@ -47,7 +47,7 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  max-width: 1000px;
   margin: auto;
   color: white;
 }
@@ -80,4 +80,43 @@ input[type="submit"] {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .home-intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-intro div {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .home-intro img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home-photos {
+    padding: 20px;
+  }
+
+  .home-photos h2 {
+    margin-bottom: 20px;
+  }
+
+  .home-photos div {
+    flex-direction: column;
+  }
+
+  .home-contact {
+    padding: 50px 30px;
+  }
+
+  .form-name-email {
+    flex-direction: column;
+    gap: 0;
+  }
 }

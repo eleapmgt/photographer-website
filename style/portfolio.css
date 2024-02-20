@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 300px 300px 300px;
   gap: 15px;
+  margin-bottom: 80px;
 }
 
 .grid-portraits {
@@ -49,4 +50,24 @@
 
 .photo-content-link:hover .photo-hover {
   display: flex;
+}
+
+@media screen and (max-width: 996px) {
+  .grid-paysages {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 300px);
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .grid-portraits {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+    gap: 15px;
+  }
+
+  .portfolio-photos h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }

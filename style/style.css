@@ -57,11 +57,11 @@ footer {
   text-decoration: none;
 }
 
-.link-icon {
+.icon-link {
   margin-left: 30px;
 }
 
-.link-icon:hover {
+.icon-link:hover {
   opacity: 0.5;
 }
 
@@ -79,4 +79,32 @@ nav {
 
 nav a {
   margin-left: 30px;
+}
+
+@media screen and (max-width: 996px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
